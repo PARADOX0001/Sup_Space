@@ -498,8 +498,8 @@ h6:empty {
   display: inline-block;
   border: none;
   box-shadow: none;
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  /* text-decoration: underline;
+  text-underline-offset: 0.3rem; */
   color: rgb(var(--color-link));
   background-color: transparent;
   font-size: 1.4rem;
@@ -603,7 +603,7 @@ details > * {
 .underlined-link,
 .customer a,
 .inline-richtext a {
-  text-underline-offset: 0.3rem;
+  /* text-underline-offset: 0.3rem; */
   text-decoration-thickness: 0.1rem;
   transition: text-decoration-thickness ease 100ms;
 }
@@ -1417,8 +1417,8 @@ details[open] > .share-button__fallback {
 }
 
 .share-button__button:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  text-decoration: pinch-zoom;
+  /* text-underline-offset: 0.3rem; */
 }
 
 .share-button__button,
@@ -2820,7 +2820,7 @@ details[open] > .header__submenu {
 }
 
 details[open] > .header__menu-item {
-  /* text-decoration: underline; */
+  text-decoration: underline;
 }
 
 details[open]:hover > .header__menu-item {
